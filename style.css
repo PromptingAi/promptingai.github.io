@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "JetbrainsMono";
+    src: url('./fonts/JetBrainsMono-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    min-height: 100%; 
+}
+
+body {
+    background: rgb(30, 30, 30);
+}
+
+li > a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+
+header > li, a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+header {
+    z-index: 100;
+    top: 0;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    background-color: rgba(45,45,45, 0.6);
+    padding: 15px 10%;
+}
+
+.logo, .logo:visited {
+    font-family: "JetbrainsMono";
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.logo:hover {
+    opacity: 50%;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.container {
+    margin: 100px;
+}
+
+.heading {
+    font-size: 24px;
+    color: rgb(200, 200, 200);
+    font-family: "Roboto";
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.siteheader {
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.sitetext {
+    font-size: 14px;
+    color: white;
+    font-family: "Roboto"
+}
+
+/* KEK */
+
+.centre {
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.copyright, .privacylink {
+    color: rgb(120, 120, 120);
+    font-family: "Roboto";
+    margin-bottom: 10px;
+}
+
+.privacylink {
+    text-decoration: underline;
+}
+
+.privacycontainer {
+    font-family: "Roboto";
+    margin: 100px;
+}
+
+.privacycontainer > h1 {
+    margin-bottom: 50px;
+}
+
+.privacycontainer > p {
+    margin-bottom: 20px;
+}
+
+.privacycontainer > h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.privacycontainer > ul {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.privacylink {
+    margin: 0px 20px;
+}
+
+/* PROMPT TABLE */
+
+.prompttable {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+/* PROMPT CARD */
+
+.promptcard {
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    display: inline-block;
+    background: rgb(40, 40, 40);
+}
+
+.promptcard:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.prompttxt {
+    color: white;
+    margin: 10px 0px;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.prompttags {
+    color: #80b0ff;
+    background-color: #263a5c;
+    padding: 5px 10px;
+    border-radius: 69px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 3px;
+    transition: 0.2s;
+}
+
+.prompttags:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.chatgpttag {
+    color: #5aeda1;
+    background: #265c40;
+}
+
+.prompt {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: "JetbrainsMono";
+    color: white;
+    background: rgb(20, 20, 20);
+}
+
+.authorico {
+    margin-right: 10px;
+    border-radius: 69px;
+    height: 40px;
+}
+
+.promptauthor, .prompttitle {
+    color: white;
+    font-family: "Roboto";
+}
+
+.prompttitle {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.promptauthor {
+    display: flex;
+    align-items: center;
+}
