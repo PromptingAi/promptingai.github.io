@@ -100,7 +100,8 @@ a:hover {
 .sitetext {
     font-size: 14px;
     color: white;
-    font-family: "Roboto"
+    font-family: "Roboto";
+    margin-bottom: 20px;
 }
 
 /* KEK */
@@ -192,7 +193,7 @@ footer {
     font-weight: bold;
     font-size: 14px;
     margin: 0px 3px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .prompttags:hover {
