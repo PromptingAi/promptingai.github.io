@@ -101,7 +101,7 @@ a:hover {
     font-size: 14px;
     color: white;
     font-family: "Roboto";
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* KEK */
@@ -234,4 +234,10 @@ footer {
 .promptauthor {
     display: flex;
     align-items: center;
+}
+
+.promptauthor > span {
+    font-size: 14px;
+    margin-left: 250px;
+    color: rgb(190, 190, 190);
 }

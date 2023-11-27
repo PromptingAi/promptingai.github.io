@@ -31,4 +31,8 @@
     .prompttxt, .prompttags, .prompt {
         font-size: 12px;
     }
+
+    .promptauthor > span {
+        margin-left: 150px;
+    }
 }
